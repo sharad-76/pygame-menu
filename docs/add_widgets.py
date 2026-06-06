@@ -55,7 +55,7 @@ def make_menu(
     return pygame_menu.Menu(
         center_content=center,
         column_min_width=400,
-        height=300,
+        height=200,
         onclose=pygame_menu.events.CLOSE,
         theme=menu_theme,
         title=title,
